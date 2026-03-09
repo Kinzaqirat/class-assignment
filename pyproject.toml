@@ -1,0 +1,13 @@
+[project]
+name = "class-assignment"
+version = "0.1.0"
+description = "Map app with UI and dynamic prompts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.1.0",
+    "geocode-mcp>=0.2.0",
+    "google-genai>=0.1.0",
+    "litellm>=1.0.0",
+    "gradio>=4.0.0",
+]
